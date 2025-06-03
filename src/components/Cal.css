@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+
+}
+
+.calculators {
+  background-color: rgb(155, 178, 215);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(145, 77, 77, 0.1);
+}
+
+input {
+  width: 87%;
+  padding: 15px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: right;
+  border: 1px solid #474444;
+  border-radius: 6px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 60px);
+  gap: 10px;
+}
+
+button {
+  padding: 15px;
+  font-size: 20px;
+  border: none;
+  background-color: #784e4e;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: white;
+}
